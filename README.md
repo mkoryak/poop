@@ -3,7 +3,7 @@ Running this cod
 
 You will need node 7.x.x, the best way to install it without breaking your world is using `n`
 
-(disclaimer, I didn't do this, going from memory here)
+(disclaimer, I didn't do this, going from memory here)  
 `npm i n -g`  
 `n list`  
 `n 7.9.0`  
