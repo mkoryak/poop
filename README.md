@@ -4,17 +4,17 @@ Running this cod
 You will need node 7.x.x, the best way to install it without breaking your world is using `n`
 
 (disclaimer, I didn't do this, going from memory here)
-`npm i n -g`
-`n list`
-`n 7.9.0`
+`npm i n -g`  
+`n list`  
+`n 7.9.0`  
 
 now you are on the node version needed to run this! run this:
 
-`npm i`
-`npm start`
+`npm i`  
+`npm start`  
 
 to run tests:
-`npm test`
+`npm test`  
 
 Things I learned while doing this
 ---------------------------------
