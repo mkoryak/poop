@@ -22,7 +22,7 @@ Things I learned while doing this
 This was the first time I did any real work with generators in js. I was originally going to use streams, but streams
 are so node 0.12
 
-I really wanted to do this without buffering as little as possible, which is why I chose generators. In retrospect,
+I really wanted to do this with buffering as little as possible, which is why I chose generators. In retrospect,
 I would _have_ to buffer in order to solve any of the problems (and if not, please tell me how). I get some memory savings
 by never instantiating non-unique name objects.
 
@@ -41,87 +41,87 @@ I probably could have written more tests and found more bugs, but I have another
 output
 ------
 
-*Unique first names:* 3007
-*Unique last names:* 468
-*Unique full names:* 48432
+**Unique first names:** 3007  
+**Unique last names:** 468  
+**Unique full names:** 48432  
 
-*Unique names (25):*
-Agustina Lang
-Anita Ortiz
-Berry Koch
-Bethel Shanahan
-Colby Rogahn
-Davin Stanton
-Donna Stoltenberg
-Elmo Fisher
-Garfield Marvin
-Gertrude Kunze
-Lennie Bahringer
-Luis Adams
-Madison Tillman
-Mariah McLaughlin
-Matilde Lehner
-Mckenna Graham
-Nicolas Cartwright
-Nikko Bradtke
-Norma Lynch
-Roy Runolfsdottir
-Ryley Tromp
-Samanta Hills
-Sonya Dickinson
-Stanley Hoppe
-Thad McGlynn
-
-*Modified unique names (25):*
-Addie Tromp
-Addison Stoltenberg
-Ahmad Adams
-Alfonzo Graham
-Braden Bradtke
-Cary McGlynn
-Delbert Hills
-Delta Tillman
-Destin McLaughlin
-Efrain Shanahan
-Furman Fisher
-Garfield Boehm
-Grady Rogahn
-Johann Hoppe
-Kane Stanton
-Katharina Dickinson
-Lennie Cummerata
-Marilou Runolfsdottir
-Raleigh Ortiz
-Robyn Lynch
-Rose Kunze
-Royce Koch
-Sydnie Lehner
-Verona Cartwright
-Xander Lang
-
-*Ten most common last names:*
-Barton -> 143
-Lang -> 136
-Ortiz -> 135
-Hilll -> 134
-Hills -> 130
-Terry -> 129
-Romaguera -> 128
-Becker -> 128
-Johns -> 128
-Batz -> 127
-
-*Ten most common first names:*
-Tara -> 32
-Stephania -> 31
-Andreanne -> 31
-Keon -> 31
-Kaycee -> 30
-Madyson -> 29
-Summer -> 29
-Baron -> 29
-Milo -> 29
-Kayley -> 29
-
-
-- Misha
+**Unique names (25):**  
+Agustina Lang  
+Anita Ortiz  
+Berry Koch  
+Bethel Shanahan  
+Colby Rogahn  
+Davin Stanton  
+Donna Stoltenberg  
+Elmo Fisher  
+Garfield Marvin  
+Gertrude Kunze  
+Lennie Bahringer  
+Luis Adams  
+Madison Tillman  
+Mariah McLaughlin  
+Matilde Lehner  
+Mckenna Graham  
+Nicolas Cartwright  
+Nikko Bradtke  
+Norma Lynch  
+Roy Runolfsdottir  
+Ryley Tromp  
+Samanta Hills  
+Sonya Dickinson  
+Stanley Hoppe  
+Thad McGlynn  
+  
+**Modified unique names (25):**  
+Addie Tromp  
+Addison Stoltenberg  
+Ahmad Adams  
+Alfonzo Graham  
+Braden Bradtke  
+Cary McGlynn  
+Delbert Hills  
+Delta Tillman  
+Destin McLaughlin  
+Efrain Shanahan  
+Furman Fisher  
+Garfield Boehm  
+Grady Rogahn  
+Johann Hoppe  
+Kane Stanton  
+Katharina Dickinson  
+Lennie Cummerata  
+Marilou Runolfsdottir  
+Raleigh Ortiz  
+Robyn Lynch  
+Rose Kunze  
+Royce Koch  
+Sydnie Lehner  
+Verona Cartwright  
+Xander Lang  
+  
+**Ten most common last names:**  
+Barton -> 143  
+Lang -> 136  
+Ortiz -> 135  
+Hilll -> 134  
+Hills -> 130  
+Terry -> 129  
+Romaguera -> 128  
+Becker -> 128  
+Johns -> 128  
+Batz -> 127  
+  
+**Ten most common first names:**  
+Tara -> 32  
+Stephania -> 31  
+Andreanne -> 31  
+Keon -> 31  
+Kaycee -> 30  
+Madyson -> 29  
+Summer -> 29  
+Baron -> 29  
+Milo -> 29  
+Kayley -> 29  
+  
+  
+-- Misha
