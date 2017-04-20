@@ -13,7 +13,7 @@ now you are on the node version needed to run this! run this:
 `npm i`  
 `npm start`  
 
-to run tests:
+to run tests:  
 `npm test`  
 
 Things I learned while doing this

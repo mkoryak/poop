@@ -113,9 +113,9 @@ test("can count unique names", function(t) {
     function* next() {
         let count = 0;
         try {
-            while (++count) {
+            do {
                 yield;
-            }
+            } while(++count)
         } finally {
             t.equal(
                 cnr.firstNames.cat,
@@ -127,7 +127,7 @@ test("can count unique names", function(t) {
                 3,
                 'there are 3 creatures with last name "man"'
             );
-            t.equal(count - 1, 5, "we looked at 5 names");
+            t.equal(count, 5, "we looked at 5 names");
         }
     }
     const nextgen = next();
