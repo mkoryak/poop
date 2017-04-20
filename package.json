@@ -1,0 +1,16 @@
+{
+  "name": "yesware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "tape tests.js",
+    "start": "node ./index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "tape": "^4.6.3"
+  }
+}
