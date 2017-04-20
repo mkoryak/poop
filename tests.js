@@ -5,7 +5,7 @@ const { CommonNamesReport, UniqueNamesReport } = require("./reports");
 const cnr = new CommonNamesReport();
 
 test("can parse names", function(t) {
-    t.plan(4);
+    t.plan(5);
 
     function* next() {
         const good = yield;
@@ -13,6 +13,7 @@ test("can parse names", function(t) {
         t.equal(good.last, "simpson");
         const maggie = yield;
         t.notEqual(maggie.first, "b0rt", 'we skipped "b0rt simpson"');
+        t.notEqual(maggie.first, "b", 'the regex should not allow numbers in names');
         t.equal(
             maggie.fullName,
             "maggie simpson",
